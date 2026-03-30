@@ -42,11 +42,11 @@ Built using **HTML, CSS, and JavaScript**, this project demonstrates API integra
 
 ### 1. Taking Orders
 
-✔ Users can enter a main ingredient
-✔ Input is formatted (lowercase + underscores) for API requests
-✔ Fetch API retrieves meals from TheMealDB
-✔ A random meal is selected using `Math.random()`
-✔ If no meals are found, a custom notification is displayed
+Users can enter a main ingredient
+Input is formatted (lowercase + underscores) for API requests
+Fetch API retrieves meals from TheMealDB
+A random meal is selected using `Math.random()`
+If no meals are found, a custom notification is displayed
 
 Each order contains:
 
@@ -58,35 +58,35 @@ Each order contains:
 
 ### 2. Storing Orders
 
-✔ Orders are stored in `sessionStorage` as a JSON array
-✔ Each order has a unique ID
-✔ A separate `lastOrderId` value is stored to track order numbers
-✔ New orders increment automatically without looping through storage
+Orders are stored in `sessionStorage` as a JSON array
+Each order has a unique ID
+A separate `lastOrderId` value is stored to track order numbers
+New orders increment automatically without looping through storage
 
 ---
 
 ### 3. Displaying & Completing Orders
 
-✔ Only **incomplete orders** are displayed in the cart
-✔ Each order shows:
+Only **incomplete orders** are displayed in the cart
+Each order shows:
 
 * Meal name
 * Order number
 
-✔ Users can:
+Users can:
 
 * Enter an order number
 * Click submit OR press Enter
 
-✔ Special cases handled:
+Special cases handled:
 
 * Entering `0` does nothing (as required)
 * Invalid order → “order not found” message
 * Already completed orders cannot be removed again
 
-✔ When completing an order:
+When completing an order:
 
-* User is prompted to confirm (✔ / ✖)
+* User is prompted to confirm
 * Order is marked as `completed: true`
 * UI updates immediately using `filter()`
 
@@ -94,7 +94,7 @@ Each order contains:
 
 ### 4. Storage Format
 
-✔ Orders stored as:
+Orders stored as:
 
 ```json
 [
@@ -106,20 +106,20 @@ Each order contains:
 ]
 ```
 
-✔ `lastOrderId` stored separately in sessionStorage
+`lastOrderId` stored separately in sessionStorage
 
-✔ Data retrieved using `getItem()` and parsed with `JSON.parse()`
+Data retrieved using `getItem()` and parsed with `JSON.parse()`
 
 ---
 
 ### 5. UI / UX Design
 
-✔ Minimal black-themed interface
-✔ Glassmorphism panels with blur effects
-✔ Responsive layout (centered design, scalable elements)
-✔ Sidebar navigation (expand/collapse)
-✔ Slide-out cart panel
-✔ Custom notification system (replaces alerts)
+Minimal black-themed interface
+Glassmorphism panels with blur effects
+Responsive layout (centered design, scalable elements)
+Sidebar navigation (expand/collapse)
+Slide-out cart panel
+Custom notification system (replaces alerts)
 
 ---
 
@@ -147,18 +147,18 @@ This project demonstrates:
 
 ## Assignment Requirements Checklist
 
-| Requirement               | Status      |
-| ------------------------- | ----------- |
-| Fetch API usage           | ✔ Completed |
-| Filter by ingredient      | ✔ Completed |
-| Random meal selection     | ✔ Completed |
-| sessionStorage usage      | ✔ Completed |
-| Unique order numbers      | ✔ Completed |
-| Display incomplete orders | ✔ Completed |
-| Complete orders via input | ✔ Completed |
-| Handle invalid input      | ✔ Completed |
-| Proper storage format     | ✔ Completed |
-| Responsive + styled UI    | ✔ Completed |
+| Requirement               | Status    |
+| ------------------------- | ----------|
+| Fetch API usage           | Completed |
+| Filter by ingredient      | Completed |
+| Random meal selection     | Completed |
+| sessionStorage usage      | Completed |
+| Unique order numbers      | Completed |
+| Display incomplete orders | Completed |
+| Complete orders via input | Completed |
+| Handle invalid input      | Completed |
+| Proper storage format     | Completed |
+| Responsive + styled UI    | Completed |
 
 ---
 
