@@ -14,7 +14,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    background-color: black;
+    
     color: black;
     -webkit-font-smoothing: antialiased;
 }
@@ -402,7 +403,7 @@ html, body {
     justify-content: center;
     align-items: center;
 
-    transform: translateY(150px); /* push down */
+    transform: translateY(100px); /* push down */
 }
 
 .left-stack {
