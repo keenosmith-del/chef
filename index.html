@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-banner">
+        <div class="title">
+            <i data-lucide="chef-hat"></i>
+            <span class="title-text">chef</span>
+        </div>
+        <div class="top-right basket-wrapper">
+            <span class="profile-name"></span>
+            <span class="cart-count">0</span>
+            <i data-lucide="shopping-basket"></i>
+        </div>
+    </div>
+
+    <!-- right panel -->
+    <div class="right-panel">
+        <div class="right-content">
+            <div class="orders-list"></div>
+        </div>
+    </div>
+
+    <!-- left panel -->
+    <div class="left-panel collapsed">
+        <div class="top-bar">
+            <span class="close-btn">x</span>
+        </div>
+
+        <div class="menu-item expand-btn">
+            <i data-lucide="arrow-right" class="icon"></i>
+        </div>
+
+        <div class="menu-item profile-icon">
+            <i data-lucide="user" class="icon"></i>
+            <span class="label">profile</span>
+            <i data-lucide="chevron-down" class="icon profile-arrow"></i>
+        </div>
+
+        <div class="profile-dropdown">
+            <i data-lucide="user" class="profile-large-icon"></i>
+            <input type="text" placeholder="enter name" class="profile-input"/>
+            <button class="profile-save">
+                <i data-lucide="check"></i>
+            </button>
+        </div>
+
+        <div class="menu-item home-icon">
+            <i data-lucide="home" class="icon"></i>
+            <span class="label">home</span>
+        </div>
+
+        <div class="menu-item complete-order">
+            <i data-lucide="check" class="icon"></i>
+            <span class="label-text">complete order</span>
+            <i data-lucide="chevron-down" class="icon arrow"></i>
+        </div>
+
+        <div class="dropdown">
+            <input type="text" placeholder="order number"/>
+            <button>submit</button>
+        </div>
+
+        <div class="menu-item message-icon">
+            <i data-lucide="message-circle" class="icon"></i>
+            <span class="label">chat</span>
+        </div>
+
+        <div class="menu-item mail-icon">
+            <i data-lucide="mail" class="icon"></i>
+            <span class="label">mail</span>
+        </div>
+
+        <!-- settings -->
+        <div class="menu-item settings-icon">
+            <i data-lucide="settings" class="icon"></i>
+            <span class="label">settings</span>
+            <i data-lucide="chevron-down" class="icon settings-arrow"></i>
+        </div>
+        <div class="settings-dropdown">
+            <div class="settings-section">
+                <!-- edit name -->
+                <div class="settings-row">
+                    <i data-lucide="user" class="icon"></i>
+                    <span class="settings-label">edit name</span>
+                </div>
+
+                <input type="text" placeholder="enter name" class="settings-input"/>
+
+                <button class="settings-save">
+                    <i data-lucide="check"></i>
+                </button>
+
+                <div class="settings-divider"></div>
+
+                <!-- clear basket -->
+                <div class="settings-row settings-clear">
+                    <i data-lucide="shopping-basket" class="icon"></i>
+                    <span class="settings-label">clear basket</span>
+                </div>
+
+                <div class="settings-divider"></div>
+
+                <!-- about -->
+                <div class="settings-row settings-about">
+                    <div class="settings-row">
+                        <span class="settings-label">chef v1.0</span>
+                    </div>
+                    <div class="settings-row">
+                        <span class="settings-label">built by keeno smith 2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="main-center">
+            <!-- -->
+            <div class="left-stack">
+                <img src="background/main.png" class="main-image"/>
+                <input type="text" class="ingredient-input" placeholder="enter ingredient"/>
+                <button class="generate-btn">generate</button>
+            </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-center">
+            © keeno smith 2026
+        </div>
+        <div class="footer-right">
+            j♡
+        </div>
+    </footer>
+    <div class="overlay hidden"></div>
+    <div class="bottom-message hidden"></div>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
