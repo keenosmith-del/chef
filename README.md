@@ -123,7 +123,7 @@ Each order contains:
 
 ---
 
-## 🎯 Key Learning Outcomes
+## Key Learning Outcomes
 
 This project demonstrates:
 
@@ -180,6 +180,6 @@ This project demonstrates:
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 This application successfully fulfills all assignment requirements while going beyond with a clean UI, improved user experience, and structured code architecture.
