@@ -6,7 +6,7 @@ Built using **HTML, CSS, and JavaScript**, this project demonstrates API integra
 
 ---
 
-### How to use
+## How to use
 * Enter ingredient and click Generate to render random order
 * Click basket to view orders
 * Set name in left panel by clicking Profile or Edit Name in Settings
@@ -15,8 +15,8 @@ Built using **HTML, CSS, and JavaScript**, this project demonstrates API integra
 * Site disabled when message pop-ups appear at bottom left
 * Acknowledge pop-up to re-enable
 
-### Test Cases
-## Proteins
+## Test Cases
+### Proteins
 Chicken 
 Beef
 Pork
@@ -28,7 +28,7 @@ Shrimp
 Eggs
 Tofu
 
-##
+### Vegetables
 Tomato
 Onion
 Garlic
@@ -40,7 +40,7 @@ Sweet Potato
 Bell Pepper
 Mushroom
 
-## Fruits
+### Fruits
 Apple 
 Banana
 Lemon
@@ -52,7 +52,7 @@ Strawberry
 Avocado
 Coconut
 
-## Dairy and Alternative
+### Dairy and Alternative
 Milk
 Butter
 Cheese
@@ -61,7 +61,7 @@ Yogurt
 Coconut Milk
 Almond Milk
 
-## Grains and Carbs
+### Grains and Carbs
 Rice
 Pasta
 Bread
@@ -70,7 +70,7 @@ Noodles
 Quinoa
 Oats
 
-## Herbs and Spices
+### Herbs and Spices
 Salt
 Black Pepper
 Paprika
