@@ -15,6 +15,81 @@ Built using **HTML, CSS, and JavaScript**, this project demonstrates API integra
 * Site disabled when message pop-ups appear at bottom left
 * Acknowledge pop-up to re-enable
 
+### Test Cases
+## Proteins
+Chicken 
+Beef
+Pork
+Lamb
+Turkey
+Salmon
+Tuna
+Shrimp
+Eggs
+Tofu
+
+##
+Tomato
+Onion
+Garlic
+Carrot
+Broccoli
+Spinach
+Potato
+Sweet Potato
+Bell Pepper
+Mushroom
+
+## Fruits
+Apple 
+Banana
+Lemon
+Lime
+Orange
+Pineapple
+Mango
+Strawberry
+Avocado
+Coconut
+
+## Dairy and Alternative
+Milk
+Butter
+Cheese
+Cream
+Yogurt
+Coconut Milk
+Almond Milk
+
+## Grains and Carbs
+Rice
+Pasta
+Bread
+Flour
+Noodles
+Quinoa
+Oats
+
+## Herbs and Spices
+Salt
+Black Pepper
+Paprika
+Cumin
+Coriander
+Basil
+Oregano
+Thyme
+Rosemary
+Chili Powder
+
+### Edge Cases
+"chicken_breast" (underscore format)
+"Chicken" vs "chicken" (case sensitivity)
+" garlic " (extra spaces)
+"fish&chips" (special characters)
+"123" (invalid input)
+"" (empty string)
+
 ## Features
 
 * Generate meals based on a user-provided ingredient
