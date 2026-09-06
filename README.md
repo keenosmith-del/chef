@@ -251,6 +251,7 @@ This project demonstrates:
 * Improve mobile responsiveness
 * Add search suggestions for ingredients
 * in settings, add toggle theme (dark and lighter dark), about (v1.0 built by keeno smith)
+* Redo interface
 
 ---
 
