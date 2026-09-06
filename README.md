@@ -257,4 +257,4 @@ This project demonstrates:
 
 ## Conclusion
 
-This application successfully fulfills all assignment requirements while going beyond with a clean UI, improved user experience, and structured code architecture.
+This application fulfills all assignment requirements while going beyond with a clean UI, improved user experience, and structured code architecture.
