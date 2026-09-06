@@ -1,6 +1,6 @@
 # Chef’s Favourite Meals App
 
-A minimal, modern web application that allows users to generate and manage “chef’s favourite meals” using TheMealDB API.
+A minimal, modern web application that allows users to generate and manage “chef’s favourite meals” using TheMealDB API. Project. 
 
 Built using **HTML, CSS, and JavaScript**, this project demonstrates API integration, DOM manipulation, event-driven programming, and session-based data storage.
 
